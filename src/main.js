@@ -1,16 +1,12 @@
 import Vue from "vue";
 import App from "./App.vue";
 import router from "./router/index";
+require("./mock/mock");
 Vue.config.productionTip = false;
+
+Vue.prototype.$bus = new Vue();
 
 new Vue({
   router,
   render: h => h(App)
 }).$mount("#app");
-// request({
-//   url:'/home'
-// }.then(res=>{
-//   resolve(res)
-// }).catch(err=>{
-//   console.log(err);
-// })

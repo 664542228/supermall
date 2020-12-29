@@ -3,7 +3,8 @@
     <div class="swiper-wrapper">
       <div class="swiper-slide" v-for="item in cbanners" :key="item.image">
         <a :href="item.link">
-          <img src="~assets/images/home/banner.jpg" alt="" />
+          <img :src="item.image" alt="" @load="imageLoad" />
+          <!-- <img src="~assets/images/home/banner.jpg" alt="" /> -->
         </a>
       </div>
     </div>
@@ -28,10 +29,26 @@ export default {
       },
     },
   },
+  data() {
+    return {
+      isLoad: false,
+    };
+  },
+  methods: {
+    //只发送一次事件，使用变量记录状态
+    imageLoad() {
+      if (!this.isLoad) {
+        this.$emit("swiperImageLoad");
+        this.isLoad = true;
+      }
+    },
+  },
   mounted() {
     var mySwiper = new Swiper(".swiper-container", {
       autoplay: true,
-      loop: true, // 循环模式选项
+      // loop: true, // 循环模式选项
+      observer: true, //修改swiper自己或子元素时，自动初始化swiper
+      observeParents: true, //修改swiper的父元素时，自动初始化swiper
       pagination: {
         el: ".swiper-pagination",
         type: "bullets",
