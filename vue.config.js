@@ -8,6 +8,7 @@ module.exports = {
         network: "@/network",
         views: "@/views",
       },
+      extensions: [".js", ".vue", ".json"],
     },
   },
 };

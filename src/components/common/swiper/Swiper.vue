@@ -1,12 +1,7 @@
 <template>
   <div class="swiper-container">
     <div class="swiper-wrapper">
-      <div class="swiper-slide" v-for="item in cbanners" :key="item.image">
-        <a :href="item.link">
-          <img :src="item.image" alt="" @load="imageLoad" />
-          <!-- <img src="~assets/images/home/banner.jpg" alt="" /> -->
-        </a>
-      </div>
+      <slot></slot>
     </div>
     <div class="swiper-pagination"></div>
     <!-- <div class="swiper-button-prev"></div>
@@ -16,53 +11,42 @@
 
 <script>
 import { Swiper, Navigation, Pagination, Autoplay } from "swiper";
+// import { Swiper, SwiperSlide } from "swiper/vue";
+import SwiperItem from "./SwiperItem.vue";
 
 import "swiper/swiper-bundle.min.css";
+
 Swiper.use([Navigation, Pagination, Autoplay]);
 export default {
-  name: "HomeSwiper",
+  name: "Swiper",
   props: {
-    cbanners: {
+    images: {
       type: Array,
       default() {
         return [];
       },
     },
   },
-  data() {
-    return {
-      isLoad: false,
-    };
-  },
-  methods: {
-    //只发送一次事件，使用变量记录状态
-    imageLoad() {
-      if (!this.isLoad) {
-        this.$emit("swiperImageLoad");
-        this.isLoad = true;
-      }
-    },
-  },
+  components: { SwiperItem },
   mounted() {
     var mySwiper = new Swiper(".swiper-container", {
-      autoplay: true,
-      // loop: true, // 循环模式选项
+      autoplay: true, // 循环模式选项
       observer: true, //修改swiper自己或子元素时，自动初始化swiper
       observeParents: true, //修改swiper的父元素时，自动初始化swiper
       pagination: {
         el: ".swiper-pagination",
         type: "bullets",
       },
-      navigation: {
-        nextEl: ".swiper-button-next",
-        prevEl: ".swiper-button-prev",
-      },
+      //   navigation: {
+      //     nextEl: ".swiper-button-next",
+      //     prevEl: ".swiper-button-prev",
+      //   },
     });
   },
 };
 </script>
 
-<style>
+<style scoped>
 .swiper-pagination-bullet {
   margin: 0 5px;
   /* width: 30px;
@@ -75,9 +59,5 @@ export default {
 .swiper-pagination-bullet-active {
   background: rgba(255, 255, 255, 1);
   opacity: 1;
-}
-.swiper-slide img {
-  height: 100%;
-  width: 100%;
 }
 </style>

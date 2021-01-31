@@ -12,7 +12,7 @@ import Bscroll from "better-scroll";
 export default {
   name: "Scroll",
   props: {
-    probType: {
+    probeType: {
       type: Number,
       default: 0,
     },
@@ -38,11 +38,11 @@ export default {
         pullUpLoad: this.pullUpLoad,
         disableMouse: false, //启用鼠标拖动
         disableTouch: false, //启用手指触摸
-        probeType: this.probType,
+        probeType: this.probeType,
         observeDom: true,
       });
       //滚动监听
-      if (this.probType === 2 || this.probType === 3) {
+      if (this.probeType === 2 || this.probeType === 3) {
         this.scroll.on("scroll", (position) => {
           this.$emit("scroll", position);
         });

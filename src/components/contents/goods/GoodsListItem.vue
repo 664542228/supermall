@@ -1,5 +1,5 @@
 <template>
-  <div class="goods-item">
+  <div class="goods-item" @click="itemClick">
     <img :src="goodsItem.img" alt="" @load="imageLoad" />
     <div class="goods-info">
       <p>{{ goodsItem.title }}</p>
@@ -22,13 +22,34 @@ export default {
   },
   methods: {
     imageLoad() {
-      this.$bus.$emit("itemImageLoad");
+      this.$bus.$emit("ImageLoad");
+      // if (this.$route.path.indexOf("/home")) {
+      //   this.$bus.$emit("homeItemImgLoad");
+      // } else if (this.$route.path.indexOf("/detail")) {
+      //   this.$bus.$emit("detailItemImgLoad");
+      // }
+    },
+    itemClick() {
+      this.$router.push("/detail/" + this.goodsItem.id);
+      // this.$router.push(
+      //   {
+      //     path:'/detail',
+      //     query:{
+
+      //     }
+      //   }
+      // )
     },
   },
+  // computed: {
+  //   showImage(){
+  //     return this.goodsItem.image||this.goodsItem.show.img
+  //   }
+  // },
 };
 </script>
 
-<style>
+<style scoped>
 .goods-item {
   padding-bottom: 33px;
   width: 46%;
