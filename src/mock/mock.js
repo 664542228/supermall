@@ -101,6 +101,66 @@ const homedata = {
             title: Random.ctitle(3, 12),
             price: Random.integer(20, 600).toFixed(2),
             id: Random.integer(10, 2000)
+          },
+          {
+            img: Random.image("155x180", Random.color()),
+            title: Random.ctitle(5, 30),
+            price: Random.integer(20, 600).toFixed(2),
+            id: Random.integer(10, 2000)
+          },
+          {
+            img: Random.image("155x180", Random.color()),
+            title: Random.ctitle(3, 22),
+            price: Random.integer(20, 600).toFixed(2),
+            id: Random.integer(10, 2000)
+          },
+          {
+            img: Random.image("155x180", Random.color()),
+            title: Random.ctitle(3, 22),
+            price: Random.integer(20, 600).toFixed(2),
+            id: Random.integer(10, 2000)
+          },
+          {
+            img: Random.image("155x180", Random.color()),
+            title: Random.ctitle(3, 22),
+            price: Random.integer(20, 600).toFixed(2),
+            id: Random.integer(10, 2000)
+          },
+          {
+            img: Random.image("155x180", Random.color()),
+            title: Random.ctitle(3, 22),
+            price: Random.integer(20, 600).toFixed(2),
+            id: Random.integer(10, 2000)
+          },
+          {
+            img: Random.image("155x180", Random.color()),
+            title: Random.ctitle(3, 22),
+            price: Random.integer(20, 600).toFixed(2),
+            id: Random.integer(10, 2000)
+          },
+          {
+            img: Random.image("155x180", Random.color()),
+            title: Random.ctitle(3, 12),
+            price: Random.integer(20, 600).toFixed(2),
+            id: Random.integer(10, 2000)
+          },
+          {
+            img: Random.image("155x180", Random.color()),
+            title: Random.ctitle(3, 12),
+            price: Random.integer(20, 600).toFixed(2),
+            id: Random.integer(10, 2000)
+          },
+          {
+            img: Random.image("155x180", Random.color()),
+            title: Random.ctitle(3, 12),
+            price: Random.integer(20, 600).toFixed(2),
+            id: Random.integer(10, 2000)
+          },
+          {
+            img: Random.image("155x180", Random.color()),
+            title: Random.ctitle(3, 12),
+            price: Random.integer(20, 600).toFixed(2),
+            id: Random.integer(10, 2000)
           }
         ]
       }
@@ -108,6 +168,66 @@ const homedata = {
     page2: {
       data: {
         list: [
+          {
+            img: Random.image("155x180", Random.color()),
+            title: Random.ctitle(5, 30),
+            price: Random.integer(20, 600).toFixed(2),
+            id: Random.integer(10, 2000)
+          },
+          {
+            img: Random.image("155x180", Random.color()),
+            title: Random.ctitle(3, 22),
+            price: Random.integer(20, 600).toFixed(2),
+            id: Random.integer(10, 2000)
+          },
+          {
+            img: Random.image("155x180", Random.color()),
+            title: Random.ctitle(3, 22),
+            price: Random.integer(20, 600).toFixed(2),
+            id: Random.integer(10, 2000)
+          },
+          {
+            img: Random.image("155x180", Random.color()),
+            title: Random.ctitle(3, 22),
+            price: Random.integer(20, 600).toFixed(2),
+            id: Random.integer(10, 2000)
+          },
+          {
+            img: Random.image("155x180", Random.color()),
+            title: Random.ctitle(3, 22),
+            price: Random.integer(20, 600).toFixed(2),
+            id: Random.integer(10, 2000)
+          },
+          {
+            img: Random.image("155x180", Random.color()),
+            title: Random.ctitle(3, 22),
+            price: Random.integer(20, 600).toFixed(2),
+            id: Random.integer(10, 2000)
+          },
+          {
+            img: Random.image("155x180", Random.color()),
+            title: Random.ctitle(3, 12),
+            price: Random.integer(20, 600).toFixed(2),
+            id: Random.integer(10, 2000)
+          },
+          {
+            img: Random.image("155x180", Random.color()),
+            title: Random.ctitle(3, 12),
+            price: Random.integer(20, 600).toFixed(2),
+            id: Random.integer(10, 2000)
+          },
+          {
+            img: Random.image("155x180", Random.color()),
+            title: Random.ctitle(3, 12),
+            price: Random.integer(20, 600).toFixed(2),
+            id: Random.integer(10, 2000)
+          },
+          {
+            img: Random.image("155x180", Random.color()),
+            title: Random.ctitle(3, 12),
+            price: Random.integer(20, 600).toFixed(2),
+            id: Random.integer(10, 2000)
+          },
           {
             img: Random.image("155x180", Random.color()),
             title: Random.ctitle(5, 30),
@@ -235,6 +355,66 @@ const homedata = {
             title: Random.ctitle(3, 12),
             price: Random.integer(20, 600).toFixed(2),
             id: Random.integer(10, 2000)
+          },
+          {
+            img: Random.image("155x180", Random.color()),
+            title: Random.ctitle(5, 30),
+            price: Random.integer(20, 600).toFixed(2),
+            id: Random.integer(10, 2000)
+          },
+          {
+            img: Random.image("155x180", Random.color()),
+            title: Random.ctitle(3, 22),
+            price: Random.integer(20, 600).toFixed(2),
+            id: Random.integer(10, 2000)
+          },
+          {
+            img: Random.image("155x180", Random.color()),
+            title: Random.ctitle(3, 22),
+            price: Random.integer(20, 600).toFixed(2),
+            id: Random.integer(10, 2000)
+          },
+          {
+            img: Random.image("155x180", Random.color()),
+            title: Random.ctitle(3, 22),
+            price: Random.integer(20, 600).toFixed(2),
+            id: Random.integer(10, 2000)
+          },
+          {
+            img: Random.image("155x180", Random.color()),
+            title: Random.ctitle(3, 22),
+            price: Random.integer(20, 600).toFixed(2),
+            id: Random.integer(10, 2000)
+          },
+          {
+            img: Random.image("155x180", Random.color()),
+            title: Random.ctitle(3, 22),
+            price: Random.integer(20, 600).toFixed(2),
+            id: Random.integer(10, 2000)
+          },
+          {
+            img: Random.image("155x180", Random.color()),
+            title: Random.ctitle(3, 12),
+            price: Random.integer(20, 600).toFixed(2),
+            id: Random.integer(10, 2000)
+          },
+          {
+            img: Random.image("155x180", Random.color()),
+            title: Random.ctitle(3, 12),
+            price: Random.integer(20, 600).toFixed(2),
+            id: Random.integer(10, 2000)
+          },
+          {
+            img: Random.image("155x180", Random.color()),
+            title: Random.ctitle(3, 12),
+            price: Random.integer(20, 600).toFixed(2),
+            id: Random.integer(10, 2000)
+          },
+          {
+            img: Random.image("155x180", Random.color()),
+            title: Random.ctitle(3, 12),
+            price: Random.integer(20, 600).toFixed(2),
+            id: Random.integer(10, 2000)
           }
         ]
       }
@@ -242,6 +422,66 @@ const homedata = {
     page2: {
       data: {
         list: [
+          {
+            img: Random.image("155x180", Random.color()),
+            title: Random.ctitle(5, 30),
+            price: Random.integer(20, 600).toFixed(2),
+            id: Random.integer(10, 2000)
+          },
+          {
+            img: Random.image("155x180", Random.color()),
+            title: Random.ctitle(3, 22),
+            price: Random.integer(20, 600).toFixed(2),
+            id: Random.integer(10, 2000)
+          },
+          {
+            img: Random.image("155x180", Random.color()),
+            title: Random.ctitle(3, 22),
+            price: Random.integer(20, 600).toFixed(2),
+            id: Random.integer(10, 2000)
+          },
+          {
+            img: Random.image("155x180", Random.color()),
+            title: Random.ctitle(3, 22),
+            price: Random.integer(20, 600).toFixed(2),
+            id: Random.integer(10, 2000)
+          },
+          {
+            img: Random.image("155x180", Random.color()),
+            title: Random.ctitle(3, 22),
+            price: Random.integer(20, 600).toFixed(2),
+            id: Random.integer(10, 2000)
+          },
+          {
+            img: Random.image("155x180", Random.color()),
+            title: Random.ctitle(3, 22),
+            price: Random.integer(20, 600).toFixed(2),
+            id: Random.integer(10, 2000)
+          },
+          {
+            img: Random.image("155x180", Random.color()),
+            title: Random.ctitle(3, 12),
+            price: Random.integer(20, 600).toFixed(2),
+            id: Random.integer(10, 2000)
+          },
+          {
+            img: Random.image("155x180", Random.color()),
+            title: Random.ctitle(3, 12),
+            price: Random.integer(20, 600).toFixed(2),
+            id: Random.integer(10, 2000)
+          },
+          {
+            img: Random.image("155x180", Random.color()),
+            title: Random.ctitle(3, 12),
+            price: Random.integer(20, 600).toFixed(2),
+            id: Random.integer(10, 2000)
+          },
+          {
+            img: Random.image("155x180", Random.color()),
+            title: Random.ctitle(3, 12),
+            price: Random.integer(20, 600).toFixed(2),
+            id: Random.integer(10, 2000)
+          },
           {
             img: Random.image("155x180", Random.color()),
             title: Random.ctitle(5, 30),
@@ -369,6 +609,66 @@ const homedata = {
             title: Random.ctitle(3, 12),
             price: Random.integer(20, 600).toFixed(2),
             id: Random.integer(10, 2000)
+          },
+          {
+            img: Random.image("155x180", Random.color()),
+            title: Random.ctitle(5, 30),
+            price: Random.integer(20, 600).toFixed(2),
+            id: Random.integer(10, 2000)
+          },
+          {
+            img: Random.image("155x180", Random.color()),
+            title: Random.ctitle(3, 22),
+            price: Random.integer(20, 600).toFixed(2),
+            id: Random.integer(10, 2000)
+          },
+          {
+            img: Random.image("155x180", Random.color()),
+            title: Random.ctitle(3, 22),
+            price: Random.integer(20, 600).toFixed(2),
+            id: Random.integer(10, 2000)
+          },
+          {
+            img: Random.image("155x180", Random.color()),
+            title: Random.ctitle(3, 22),
+            price: Random.integer(20, 600).toFixed(2),
+            id: Random.integer(10, 2000)
+          },
+          {
+            img: Random.image("155x180", Random.color()),
+            title: Random.ctitle(3, 22),
+            price: Random.integer(20, 600).toFixed(2),
+            id: Random.integer(10, 2000)
+          },
+          {
+            img: Random.image("155x180", Random.color()),
+            title: Random.ctitle(3, 22),
+            price: Random.integer(20, 600).toFixed(2),
+            id: Random.integer(10, 2000)
+          },
+          {
+            img: Random.image("155x180", Random.color()),
+            title: Random.ctitle(3, 12),
+            price: Random.integer(20, 600).toFixed(2),
+            id: Random.integer(10, 2000)
+          },
+          {
+            img: Random.image("155x180", Random.color()),
+            title: Random.ctitle(3, 12),
+            price: Random.integer(20, 600).toFixed(2),
+            id: Random.integer(10, 2000)
+          },
+          {
+            img: Random.image("155x180", Random.color()),
+            title: Random.ctitle(3, 12),
+            price: Random.integer(20, 600).toFixed(2),
+            id: Random.integer(10, 2000)
+          },
+          {
+            img: Random.image("155x180", Random.color()),
+            title: Random.ctitle(3, 12),
+            price: Random.integer(20, 600).toFixed(2),
+            id: Random.integer(10, 2000)
           }
         ]
       }
@@ -376,6 +676,66 @@ const homedata = {
     page2: {
       data: {
         list: [
+          {
+            img: Random.image("155x180", Random.color()),
+            title: Random.ctitle(5, 30),
+            price: Random.integer(20, 600).toFixed(2),
+            id: Random.integer(10, 2000)
+          },
+          {
+            img: Random.image("155x180", Random.color()),
+            title: Random.ctitle(3, 22),
+            price: Random.integer(20, 600).toFixed(2),
+            id: Random.integer(10, 2000)
+          },
+          {
+            img: Random.image("155x180", Random.color()),
+            title: Random.ctitle(3, 22),
+            price: Random.integer(20, 600).toFixed(2),
+            id: Random.integer(10, 2000)
+          },
+          {
+            img: Random.image("155x180", Random.color()),
+            title: Random.ctitle(3, 22),
+            price: Random.integer(20, 600).toFixed(2),
+            id: Random.integer(10, 2000)
+          },
+          {
+            img: Random.image("155x180", Random.color()),
+            title: Random.ctitle(3, 22),
+            price: Random.integer(20, 600).toFixed(2),
+            id: Random.integer(10, 2000)
+          },
+          {
+            img: Random.image("155x180", Random.color()),
+            title: Random.ctitle(3, 22),
+            price: Random.integer(20, 600).toFixed(2),
+            id: Random.integer(10, 2000)
+          },
+          {
+            img: Random.image("155x180", Random.color()),
+            title: Random.ctitle(3, 12),
+            price: Random.integer(20, 600).toFixed(2),
+            id: Random.integer(10, 2000)
+          },
+          {
+            img: Random.image("155x180", Random.color()),
+            title: Random.ctitle(3, 12),
+            price: Random.integer(20, 600).toFixed(2),
+            id: Random.integer(10, 2000)
+          },
+          {
+            img: Random.image("155x180", Random.color()),
+            title: Random.ctitle(3, 12),
+            price: Random.integer(20, 600).toFixed(2),
+            id: Random.integer(10, 2000)
+          },
+          {
+            img: Random.image("155x180", Random.color()),
+            title: Random.ctitle(3, 12),
+            price: Random.integer(20, 600).toFixed(2),
+            id: Random.integer(10, 2000)
+          },
           {
             img: Random.image("155x180", Random.color()),
             title: Random.ctitle(5, 30),

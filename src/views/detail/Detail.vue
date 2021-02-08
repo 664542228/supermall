@@ -45,8 +45,8 @@ import GoodsList from "components/contents/goods/GoodsList.vue";
 import Toast from "components/common/toast/Toast.vue";
 
 import { getDetail, Goods, getRecommend } from "network/detail";
-import { debounce } from "common/utils.js";
-import { itemListenerMixin, backTopMixin } from "common/mixin.js";
+import { debounce } from "@/common/utils.js";
+import { itemListenerMixin, backTopMixin } from "@/common/mixin.js";
 import { mapActions } from "vuex";
 
 export default {

@@ -43,8 +43,7 @@ import Scroll from "components/common/scroll/Scroll";
 import BackTop from "components/contents/backTop/BackTop";
 
 import { getHomeMultidata, getHomeGoods } from "network/home";
-import { debounce } from "common/utils";
-import { itemListenerMixin } from "common/mixin.js";
+import { itemListenerMixin } from "@/common/mixin.js";
 
 export default {
   name: "Home",
@@ -95,7 +94,6 @@ export default {
     this.getHomeGoods("sell");
   },
   //监听item图片加载完成
-  mounted() {},
   methods: {
     //事件监听
     tabClick(index) {
@@ -141,7 +139,6 @@ export default {
         this.goods[type].page += 1;
         setTimeout(this.$refs.scroll.finishPullUp, 500);
 
-        // console.log("shangla");
         // console.log(this.goods[type].page);
       });
     },
@@ -159,6 +156,7 @@ export default {
 .home-nav {
   background-color: var(--color-tint);
   color: white;
+  font-weight: 700;
   /* position: fixed;
   left: 0;
   right: 0;
